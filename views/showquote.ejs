@@ -1,0 +1,9 @@
+<h1>Quote of the day</h1>
+
+
+
+<% data.contents["quotes"].forEach(function(quote) { %>
+    <li>
+        <%= quote["quote"] %> - <strong><%= quote["author"] %></strong>
+    </li>
+<% }); %>
